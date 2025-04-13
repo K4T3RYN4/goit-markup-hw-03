@@ -70,10 +70,10 @@ a {
     border-bottom: 1px solid var(--cornflower);
 }
 
-.nav-container {
+.nav {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    align-items: center;
+    
 }
 
 .logo {
@@ -88,9 +88,7 @@ a {
 }
 
 .nav-container>.logo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    margin-right: 76px;
 }
 
 .logo-accent-dark {
@@ -100,10 +98,8 @@ a {
 .nav-list {
     /* position  */
     display: flex;
-    justify-content: flex-start;
     gap: 40px;
-    padding-left: 76px;
-    flex-grow: 1;
+
 }
 
 .nav-list-item {
@@ -113,6 +109,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* position  */
+    margin-right: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -122,6 +119,10 @@ a {
     color: var(--ocean);
 }
 
+.nav-menu {
+    padding: 24px 0;
+}
+
 .address {
     font-style: normal;
 }
@@ -129,7 +130,6 @@ a {
 .address-list {
     /* position  */
     display: flex;
-    justify-content: space-between;
     gap: 40px;
 }
 
