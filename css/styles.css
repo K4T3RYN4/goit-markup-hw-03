@@ -1,0 +1,208 @@
+/* #region main styles */
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: rgba(46, 47, 66, 40); 
+    --grey: rgba(46, 47, 66, 70);
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+/* #endregion main styles */
+
+body {
+    background-color: var(--white);
+    color: var(--slate);
+    font-family: var(--font-family);
+}
+
+ul {
+    list-style: none;
+}
+
+/* #region header */
+.logo {
+    color: var(--iris);
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-accent-dark {
+    color: var(--navy-blue);
+}
+
+.nav-list-item {
+    color: var(--navy-blue);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-item:hover, 
+.nav-list-item:focus {
+    color: var(--ocean);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-list-item {
+    color: var(--slate);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-list-item:hover, .address-list-item:focus {
+    color: var(--ocean);
+}
+/* #endregion header */
+
+/* #region wellcome section */
+.wellcome-section {
+    background-color: var(--navy-blue);
+}
+
+.wellcome-header {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.main-button {
+    color: var(--white);
+    background-color: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--ocean);
+}
+/* #endregion wellcome section */
+
+/* #region features-info section */
+.feature-name {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-descr {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* #endregion features-info section */
+
+/* #region team section */
+.team-section {
+    background-color: var(--cloud);
+}
+
+.team-header {
+    color: var(--navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-list-item {
+    background-color: var(--white);
+}
+
+.teammate-name {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.teammate-position {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/* #endregion team section */
+
+/* #region portfolio section */
+.portfolio-header {
+    color: var(--navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio-thing {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-thing-descr {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* #endregion portfolio section */
+
+/* #region footer */
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.logo-accent-light {
+    color: var(--cloud);
+}
+
+.end-text {
+    color: var(--cloud);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* #endregion footer */
