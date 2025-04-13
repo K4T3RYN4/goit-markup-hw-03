@@ -66,6 +66,11 @@ a {
 
 /* #region header */
 
+.header-container {
+    display: flex;
+    margin: 0 auto;
+}
+
 .header {
     border-bottom: 1px solid var(--cornflower);
 }
@@ -73,7 +78,10 @@ a {
 .nav-menu {
     display: flex;
     align-items: center;
-    
+}
+
+.nav-menu-item {
+    padding: 24px 0;
 }
 
 .logo {
@@ -106,7 +114,6 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .nav-list-item:hover, 
