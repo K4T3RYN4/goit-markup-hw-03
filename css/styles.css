@@ -66,10 +66,14 @@ a {
 
 /* #region header */
 
+.header {
+    border-bottom: 1px solid var(--cornflower);
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid var(--cornflower);
+    margin: 0 auto;
 }
 
 .logo {
